@@ -1,0 +1,10 @@
+pandas
+scikit-learn
+joblib
+matplotlib
+seaborn
+streamlit
+deep-translator
+gTTS
+flask
+flask-cors
