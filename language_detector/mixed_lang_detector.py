@@ -21,7 +21,7 @@ import re
 import joblib
 import os
 
-MODEL_DIR = "model"
+MODEL_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "model")
 
 # --- Common Romanized Bengali (Banglish) words ---
 BANGLA_ROMAN_WORDS = {
