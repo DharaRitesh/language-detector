@@ -8,3 +8,5 @@ deep-translator
 gTTS
 flask
 flask-cors
+streamlit-option-menu
+Pillow
