@@ -27,7 +27,7 @@ try:
 except ImportError:
     TTS_AVAILABLE = False
 
-MODEL_DIR = "model"
+MODEL_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "model")
 
 GTTS_LANG_CODES = {
     "English": "en", "French": "fr", "Spanish": "es", "Portugeese": "pt",
